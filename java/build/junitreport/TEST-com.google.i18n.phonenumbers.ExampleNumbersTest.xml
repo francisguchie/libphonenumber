@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Usmans-MacBook-Pro.local" name="com.google.i18n.phonenumbers.ExampleNumbersTest" skipped="0" tests="18" time="0.298" timestamp="2017-09-29T14:31:47">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="lib.dir" value="lib" />
+    <property name="prefixmapper.src.dir" value="internal/prefixmapper/src" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes" />
+    <property name="prefixmapper.test.dir" value="internal/prefixmapper/test" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/usr/local/Cellar/ant/1.10.1/libexec" />
+    <property name="jar.dir" value="build/jar" />
+    <property name="java.runtime.version" value="1.8.0_121-b13" />
+    <property name="user.name" value="usman" />
+    <property name="geocoder.src.dir" value="geocoder/src" />
+    <property name="build.dir" value="build" />
+    <property name="ant.file.libphonenumber" value="/Users/usman/code/libphonenumber/java/build.xml" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib" />
+    <property name="ant.file.type.libphonenumber" value="file" />
+    <property name="ant.project.default-target" value="compile" />
+    <property name="ant.project.name" value="libphonenumber" />
+    <property name="java.version" value="1.8.0_121" />
+    <property name="user.timezone" value="" />
+    <property name="resources.dir" value="../resources" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="classes.dir" value="build/classes" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre" />
+    <property name="geocoder.test.dir" value="geocoder/test" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/Users/usman/code/libphonenumber/java/build.xml" />
+    <property name="os.version" value="10.11.6" />
+    <property name="path.separator" value=":" />
+    <property name="build.tools.jar" value="../tools/java/java-build/target/java-build-1.0-SNAPSHOT-jar-with-dependencies.jar" />
+    <property name="java.vm.version" value="25.121-b13" />
+    <property name="carrier.test.dir" value="carrier/test" />
+    <property name="report.dir" value="build/junitreport" />
+    <property name="ant.library.dir" value="/usr/local/Cellar/ant/1.10.1/libexec/lib" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="javascript.dir" value="../javascript" />
+    <property name="user.home" value="/Users/usman" />
+    <property name="carrier.src.dir" value="carrier/src" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="libphonenumber.src.dir" value="libphonenumber/src" />
+    <property name="java.library.path" value="/Users/usman/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher -cp  -lib /usr/local/share/ant -f java/build.xml junit" />
+    <property name="java.class.path" value="/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-launcher.jar:/usr/local/share/ant:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-antlr.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-apache-bcel.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-apache-bsf.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-apache-log4j.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-apache-oro.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-apache-regexp.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-apache-resolver.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-apache-xalan2.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-commons-logging.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-commons-net.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-jai.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-javamail.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-jdepend.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-jmf.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-jsch.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-junit4.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-netrexx.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-swing.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-testutil.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant-xz.jar:/usr/local/Cellar/ant/1.10.1/libexec/lib/ant.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/tools.jar" />
+    <property name="libphonenumber.test.dir" value="libphonenumber/test" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="java.io.tmpdir" value="/var/folders/c2/rmcx89m51fs4rcw6blq9pr480000gn/T/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.ext.dirs" value="/Users/usman/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Users/usman/code/libphonenumber" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/Users/usman/code/libphonenumber/java" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/usr/local/Cellar/ant/1.10.1/libexec/lib/ant.jar" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="junit" />
+  </properties>
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testVoip" time="0.067" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testFixedLine" time="0.041" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testMobile" time="0.075" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testTollFree" time="0.016" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testPremiumRate" time="0.007" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testPager" time="0.002" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testUan" time="0.003" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testVoicemail" time="0.001" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testSharedCost" time="0.004" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testCanBeInternationallyDialled" time="0.001" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testGlobalNetworkNumbers" time="0.004" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testEveryRegionHasAnExampleNumber" time="0.007" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testEveryRegionHasAnInvalidExampleNumber" time="0.01" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testEveryTypeHasAnExampleNumber" time="0.0" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testShortNumbersValidAndCorrectCost" time="0.044" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testEmergency" time="0.008" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testCarrierSpecificShortNumbers" time="0.002" />
+  <testcase classname="com.google.i18n.phonenumbers.ExampleNumbersTest" name="testSmsServiceShortNumbers" time="0.003" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
